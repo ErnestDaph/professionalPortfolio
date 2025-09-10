@@ -1,0 +1,28 @@
+:root {
+    --primary-color: #F0E1D1;
+    --secondary-color: #39a770;
+    --thirdary-color: #446652;
+}
+.button {
+    padding: 8px 16px;
+    font-size: 16px;
+    width: 200px;
+    border-color: var(--primary-color);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button.primary {
+    background-color: var(--thirdary-color);
+    color: var(--primary-color);
+}
+
+.button.secondary {
+    background-color: var(--thirdary-color);
+    color: var(--primary-color);
+}
+
+.button:hover {
+    opacity: 0.8;
+}
